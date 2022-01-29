@@ -40,8 +40,6 @@ function Home() {
 
   }, [refreshFlag])
 
-  // Background mudando de acordo com horário
-
   return (
     <>
       <Card style={{ width: '18rem', color: 'black' }}>
@@ -62,7 +60,7 @@ function Home() {
               {weatherData.main.temp_min} ºC
             </div>
             <div style={{ marginTop: '2%' }}>
-              <FaWind /> Speed: {weatherData.wind.speed} km/h
+              <FaWind /> Speed: {weatherData.wind.speed} km/hgit 
             </div>
           </Card.Subtitle>
         </Card.Body>
